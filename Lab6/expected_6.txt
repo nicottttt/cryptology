@@ -1,0 +1,9 @@
+------------- Test Hastad attack --------------
+
+Plain text : 
+12345678
+
+Key generation and encryption done.
+
+[TEST OK]
+

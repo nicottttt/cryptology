@@ -1,0 +1,40 @@
+#########################
+# QUESTION 1
+# Let z be the output of the cipher. Prove that Prob(z = x1) = Prob(z = x3) = 3/4.
+#########################
+Your answer:
+Use the truth table to prove:
+
+X1 0 0 0 0 1 1 1 1  ->Prob(z = x1) = 75%
+Z  0 1 0 0 0 1 1 1
+
+X3 0 1 0 1 0 1 0 1  ->Prob(z = x3) = 75%
+Z  0 1 0 0 0 1 1 1
+
+#########################
+# QUESTION 2
+# What is the complexity of a brute force attack on Geffe's generator in terms of the lengths l1, l2, l3 of the LFSR's?
+#########################
+Your answer:
+
+Complexity = pow(2, l1 + l2 + l3)    
+
+#########################
+# QUESTION 3
+# What is the complexity of the above attack?
+#########################
+Your answer:
+
+
+#########################
+# QUESTION 4
+# What is the complexity of the attack when using linear algebra to guess the second LFSR?
+#########################
+Your answer:
+
+
+#########################
+# QUESTION 5
+# Compared to a brute force attack, what is the interest of your attack when the length of the three LFSR's is about 30 bits?
+#########################
+Your answer:

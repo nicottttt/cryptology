@@ -1,0 +1,5 @@
+---------------- Test text encryption ----------------
+
+Generating RSA key ..... [DONE]
+Checking that the encryption is correct ........ [OK]
+

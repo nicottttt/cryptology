@@ -1,0 +1,26 @@
+------------- Testing lengths ----------------
+
+Plain text : 
+
+Wait a minute. Wait a minute, Doc. Ah... Are you telling me that you built a time machine... out of a DeLorean? The way I see it, if you're gonna build a time machine into a car, why not do it with some *style?*
+
+**********************************************
+
+Size of the modulus N (in bits) = 256
+Length of the message = 211 bytes
+block length = 31 bytes
+cipher length = 7 blocks
+last block size = 25 bytes
+
+[OK]
+
+**********************************************
+
+Second test (slightly longer plain text): 
+Length of the message = 217 bytes
+block length = 31 bytes
+cipher length = 7 blocks
+last block size = 31 bytes
+
+[OK]
+
